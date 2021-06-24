@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/filter"
+        android:title="Filter"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_filter_alt_24"/>
+
+    <!--<item android:id="@+id/sort"
+        android:title="Sort"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_sort_24"/>-->
+
+    <item android:id="@+id/nameasc"
+        android:title="Sort by name (Asc)" />
+    <item android:id="@+id/namedsc"
+        android:title="Sort by name (Des)" />
+    <item android:id="@+id/heighthigh"
+        android:title="Sort by height(Tall to short)" />
+    <item android:id="@+id/heighlow"
+        android:title="Sort by height(Short to Tall)" />
+    <item android:id="@+id/weighthigh"
+        android:title="Sort by weight(Des)" />
+    <item android:id="@+id/weightlow"
+        android:title="Sort by weight(Asc)" />
+    <item android:id="@+id/intellasc"
+        android:title="Sort by Intelligence (Asc)" />
+    <item android:id="@+id/intelldsc"
+        android:title="Sort by Intelligence (Des)" />
+    <item android:id="@+id/powerhigh"
+        android:title="Sort by Power(High to low)" />
+    <item android:id="@+id/powerlow"
+        android:title="Sort by Power(Low to High)" />
+    <item android:id="@+id/streangthhigh"
+        android:title="Sort by Strength(High to low)" />
+    <item android:id="@+id/streangthlow"
+        android:title="Sort by Strength(Low to High)" />
+    <item android:id="@+id/speedhigh"
+        android:title="Sort by Speed(High to low)" />
+    <item android:id="@+id/speedlow"
+        android:title="Sort by Speed(Low to High)" />
+
+
+</menu>
